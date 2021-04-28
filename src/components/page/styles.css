@@ -1,0 +1,28 @@
+@import url('../../assets/styles/styles.css');
+
+.page {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.page-content {
+    display: flex;
+    flex: 20;
+}
+
+.page-content-left{
+    display: flex;
+    flex-direction: column;
+    /* flex: 1; */
+    background-color: var(--primary-dark);
+    color: var(--primary-white);
+    max-width: 380px;
+}
+
+.page-content-right{
+    display: flex;
+    flex: 3;
+    padding: 0 4em;
+    margin-right: 30%;
+}

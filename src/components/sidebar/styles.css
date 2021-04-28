@@ -1,0 +1,78 @@
+@import url('../../assets/styles/styles.css');
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar > div > img {
+    width: 100%;
+}
+
+.sidebar-top{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.sidebar-bottom{
+    display: flex;
+    flex-direction: column;
+    flex: 4;
+    padding: 1.5em;
+}
+
+.sidebar-bottom > label {
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+.sidebar-bottom > label:nth-child(2) {
+    font-size: 18px;
+}
+
+.sidebar-bottom > label:first-child {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sidebar-bottom > div {
+    margin-top: 2em;
+}
+
+.sidebar-bottom-item {
+    display: flex;
+    margin-top: 1em;
+    align-items: center;
+}
+
+.sidebar-bottom-item > a {
+    display: flex;
+    text-decoration: none;
+    color: var(--primary-white);
+    cursor: pointer;
+    align-items: flex-start;
+}
+
+.sidebar-bottom-item > a > label{
+    margin-left: 1em;
+    cursor: pointer;
+}
+
+.sidebar-bottom-item > a > div > label{
+    cursor: pointer;
+}
+
+.sidebar-bottom-item > a:hover{
+    font-weight: bold;
+}
+
+.sidebar-bottom-item > a > div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1em;
+}
+
+.sidebar-bottom-item > a > div > label:not(:first-child) {
+    font-size: 14px;
+}

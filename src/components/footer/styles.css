@@ -1,0 +1,14 @@
+@import url('../../assets/styles/styles.css');
+
+.footer {
+    display: flex;
+    flex-direction: row-reverse;
+    flex: 1;
+    background-color: var(--primary-dark);
+    color: var(--primary-white);
+    align-items: center;
+}
+
+.footer > label {
+    padding: 0.5em 1em;
+}

@@ -1,0 +1,69 @@
+@import url('./colors.css');
+
+@font-face {
+    font-family: 'Sansation';
+    src: local('Sansation'), url('../fonts/sansation/Sansation_Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'RedHat';
+    src: local('RedHat'), url('../fonts/redhat/RedHatText-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'RedHat';
+    src: local('RedHat'), url('../fonts/redhat/RedHatText-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'RedHat-Medium';
+    src: local('RedHat-Medium'), url('../fonts/redhat/RedHatText-Medium.ttf') format('truetype');
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    margin: 0;
+    background-color: var(--primary-gray-light);
+    color: var(--primary-gray);
+    height: 100%;
+}
+
+#root {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    font-family: 'RedHat';
+}
+
+.section-title {
+    font-family: 'RedHat-Medium';
+    font-size: 22px;
+    margin-top: 3em;
+}
+
+.section-subtitle {
+    /* font-family: 'RedHat-Medium'; */
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+.no-margin{
+    margin: 0;
+}
+
+.margin-left{
+    margin-left: 1em;
+}
+
+.no-decor {
+    text-decoration: none;
+}
+
+.middle-dot {
+    font-size: 22px;
+}

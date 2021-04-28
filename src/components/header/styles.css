@@ -1,0 +1,37 @@
+@import url('../../assets/styles/styles.css');
+
+.header {
+    display: flex;
+    flex: 1;
+    background-color: var(--primary-dark);
+    color: var(--primary-white);
+    padding: 1em;
+    font-family: 'Sansation';
+    align-items: center;
+}
+
+.header > img {
+    width: 3%;
+    min-width: 50px;
+    max-width: 60px;
+}
+
+.header-name{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.header-flags{
+    display: flex;
+}
+
+.header-flags > img{
+    width: 30px;
+    margin-right: 1em;
+}
+
+.header-flags > img.selected{
+    border: white 2px solid;
+    border-radius: 50%;
+}
