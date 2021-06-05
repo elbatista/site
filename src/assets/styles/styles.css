@@ -11,9 +11,8 @@
 }
 
 @font-face {
-    font-family: 'RedHat';
+    font-family: 'RedHatBold';
     src: local('RedHat'), url('../fonts/redhat/RedHatText-Bold.ttf') format('truetype');
-    font-weight: bold;
 }
 
 @font-face {
@@ -43,7 +42,7 @@ body {
 .section-title {
     font-family: 'RedHat-Medium';
     font-size: 22px;
-    margin-top: 3em;
+    margin-top: 2em;
 }
 
 .section-subtitle {
@@ -66,4 +65,8 @@ body {
 
 .middle-dot {
     font-size: 22px;
+}
+
+.bold {
+    font-family: 'RedHatBold';
 }

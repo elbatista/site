@@ -22,7 +22,9 @@
 
 .page-content-right{
     display: flex;
+    flex-direction: column;
     flex: 3;
     padding: 0 4em;
     margin-right: 30%;
+    min-width: 600px;
 }
