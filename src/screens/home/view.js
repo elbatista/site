@@ -33,8 +33,8 @@ export default () => {
                     more specifically the replication paradigm, parallel SMR scheduling, state management and recovery.
                 </p>
                 <p>
-                    Recently I've been working on optimized data structure in state transference protocols, 
-                    mainly in large application state scenarios.
+                    Recently I've been working on optimized data structure in SMR state transference protocols, 
+                    and Atomic Multicast algorithms.
                 </p>
 
                 <Title>Education</Title>
@@ -43,9 +43,9 @@ export default () => {
                         <ExtLink to="https://www.inf.usi.ch/en/study-informatics/phd-doctoral-studies">
                             Ph.D. in Informatics
                             {/* <span role="img" aria-label="A link"> &#128279;</span> */}
-                        </ExtLink>
+                        </ExtLink> (Currently)
                     </Subtitle>
-                    {usi} <span className="middle-dot">&bull;</span> {lvga}, {ch} <span className="middle-dot">&bull;</span> Currently
+                    {usi} <span className="middle-dot">&bull;</span> {lvga}, {ch} <span className="middle-dot">&bull;</span> 2021
                 </div>
                 <div>
                     <Subtitle>
@@ -69,12 +69,21 @@ export default () => {
                 <Title>Teaching assistance</Title>
                 <div>
                     <Subtitle>
+                        <ExtLink to="https://search.usi.ch/en/courses/35263604/systems-programming">
+                            Systems Programming
+                            {/* <span role="img" aria-label="A link"> &#128279;</span> */}
+                        </ExtLink>
+                    </Subtitle>
+                    {usi}, {lvga}, {ch}
+                </div>
+                <div>
+                    <Subtitle>
                         <ExtLink to="https://search.usi.ch/it/corsi/35262262/operating-systems">
                             Operating Systems
                             {/* <span role="img" aria-label="A link"> &#128279;</span> */}
                         </ExtLink>
                     </Subtitle>
-                    {usi}, {lvga}, {ch} <span className="middle-dot">&bull;</span> Spring 2021
+                    {usi}, {lvga}, {ch}
                 </div>
                 <Title>Publications</Title>
                 <div>

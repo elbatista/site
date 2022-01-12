@@ -8,7 +8,7 @@ I am currently a PhD researcher at Università della Svizzera italiana (USI), Lu
 
 My research interests include the theory and practice of distributed dependable systems, more specifically the replication paradigm, parallel SMR scheduling, state management and recovery.
 
-Recently I've been working on optimized data structure in state transference protocols, mainly in large application state scenarios.
+Recently I've been working on optimized data structure in SMR state transference protocols, and Atomic Multicast algorithms.
 
 <br>
 
