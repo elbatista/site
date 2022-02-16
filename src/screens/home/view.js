@@ -69,8 +69,17 @@ export default () => {
                 <Title>Teaching assistance</Title>
                 <div>
                     <Subtitle>
+                        <ExtLink to="https://search.usi.ch/it/corsi/35262262/operating-systems">
+                            Operating Systems (2022)
+                            {/* <span role="img" aria-label="A link"> &#128279;</span> */}
+                        </ExtLink>
+                    </Subtitle>
+                    {usi}, {lvga}, {ch}
+                </div>
+                <div>
+                    <Subtitle>
                         <ExtLink to="https://search.usi.ch/en/courses/35263604/systems-programming">
-                            Systems Programming
+                            Systems Programming (2022)
                             {/* <span role="img" aria-label="A link"> &#128279;</span> */}
                         </ExtLink>
                     </Subtitle>
@@ -79,13 +88,27 @@ export default () => {
                 <div>
                     <Subtitle>
                         <ExtLink to="https://search.usi.ch/it/corsi/35262262/operating-systems">
-                            Operating Systems
+                            Operating Systems (2021)
                             {/* <span role="img" aria-label="A link"> &#128279;</span> */}
                         </ExtLink>
                     </Subtitle>
                     {usi}, {lvga}, {ch}
                 </div>
                 <Title>Publications</Title>
+                <div className='margin-bottom'>
+                    <ExtLink to="https://doi.org/10.1016/j.jpdc.2022.02.001">
+                        Early Scheduling on Steroids: Boosting Parallel State Machine Replication
+                    </ExtLink>
+                    <p className="no-margin"><i>Eliã Batista; Eduardo Alchieri; Fernando Dotti; Fernando Pedone</i></p>
+                    <p className="no-margin">Journal of Parallel and Distributed Computing - 2022</p>
+                    <ExtLink noDecor  to="https://www.inf.usi.ch/phd/batista/papers/batista22.pdf">
+                        <img src={require('../../assets/images/file-pdf.svg')} alt="pdf file"/>
+                    </ExtLink>
+                    
+                    <ExtLink marginLeft noDecor to="https://www.inf.usi.ch/phd/batista/papers/S0743731522000375.bib">
+                        <img src={require('../../assets/images/format-quote-close.svg')} alt="bibTex" />
+                    </ExtLink>
+                </div>
                 <div>
                     <ExtLink to="https://ieeexplore.ieee.org/document/8995730">
                         Resource Utilization Analysis of Early Scheduling in Parallel State Machine Replication
@@ -114,10 +137,10 @@ export default () => {
                     <Subtitle bold>Software Developer</Subtitle>
                     DBServer Assessoria em Sistemas de Informação Ltda, {poars}, {br} <span className="middle-dot">&bull;</span> 2010 - 2013
                 </div>
-                <div>
+                {/* <div>
                     <Subtitle bold>Junior Software Developer</Subtitle>
                     Vensis Sistemas de Informação Ltda, {poars}, {br} <span className="middle-dot">&bull;</span> 2008 - 2010
-                </div>
+                </div> */}
                 <p/>
                 <br/>
 
